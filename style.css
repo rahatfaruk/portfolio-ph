@@ -151,7 +151,6 @@ body > header {
   display: flex;
   gap: 1rem;
 }
-
 .skill-list li {
   padding: 1rem;
   border-radius: .25rem;
@@ -167,4 +166,42 @@ body > header {
 .skill-list p {
   color: var(--clr-gray);
   line-height: 1.3;
+}
+
+/* ##resume-summary section */
+.resume-summary {
+  margin-top: 3rem;
+}
+.resume-summary .sect-title {
+  margin-bottom: 2rem;
+}
+.resume-summary .flex {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.resume-summary .flex li {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+  padding-bottom: .5rem;
+}
+.resume-summary .flex h3 {
+  margin-bottom: 1rem;
+  color: var(--clr-dark-90);
+}
+.resume-summary .flex h4 {
+  margin-bottom: .5rem;
+}
+.resume-summary .flex p {
+  margin-bottom: .5rem;
+  color: var(--clr-dark-90);
+}
+.resume-summary .flex li p+p {
+  color: var(--clr-gray);
+  font-size: .9rem;
+  line-height: 1.25;
+}
+.resume-summary .flex + button {
+  display: block;
+  margin: 1rem auto;
 }
