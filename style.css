@@ -32,7 +32,12 @@ button {cursor: pointer;}
 .btn-primary:hover {
   opacity: .75;
 }
+.sect-title {
+  color: var(--clr-dark-90);
+  margin-bottom: 1rem;
+}
 
+/* ## Header-section */
 body > header {
   position: relative;
   background-image: url('./images/header_bg.png'), url('./images/developer.png');
@@ -68,12 +73,10 @@ body > header {
 .hero {
   display: flex;
   align-items: center;
-  /* border: 1px solid red; */
   min-height: 400px;
 }
 .hero .content {
   max-width: 500px;
-  /* border: 1px solid blue; */
 }
 .hero .content h2 {
   color: var(--clr-dark-90);
@@ -97,4 +100,36 @@ body > header {
   position: absolute;
   right: 100px;
   bottom: 0;
+}
+
+/* ## About-section */
+.about {
+  background: var(--clr-secondary);
+  border-radius: .25rem;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 4rem 0;
+}
+.about .content {
+  max-width: 600px;
+  margin: auto;
+}
+.about .content > p {
+  color: var(--clr-gray);
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+.about .info-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.about .info h3 {
+  font-size: 1rem;
+  color: var(--clr-gray);
+  margin-bottom: .25rem;
+  font-weight: normal;
+}
+.about .info strong {
+  color: var(--clr-dark-90);
 }
