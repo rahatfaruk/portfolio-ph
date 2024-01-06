@@ -80,7 +80,8 @@ body > header {
 .hero {
   display: flex;
   align-items: center;
-  min-height: 400px;
+  min-height: 98vh;
+  padding: 0 1rem;
 }
 .hero .content {
   max-width: 500px;
@@ -103,10 +104,7 @@ body > header {
   margin-bottom: 1rem;
 }
 .hero .profile-img {
-  max-height: 400px;
-  position: absolute;
-  right: 100px;
-  bottom: 0;
+  align-self: flex-end;
 }
 
 /* ## About-section */
